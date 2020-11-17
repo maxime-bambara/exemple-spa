@@ -1,0 +1,33 @@
+    @import 'header.css';
+    @import 'nav.css';
+    @import 'footer.css';
+    @import 'sections.css';
+
+    :root {
+        --bg: rgb(240, 156, 156);
+        scroll-behavior: smooth;
+    }
+
+    
+    body{
+        margin: 0;
+        padding: 0;
+        background: rgb(237, 237, 237);;
+        font-family: sans-serif;
+        line-height: 30px;
+        color: #444;
+        
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        color : #444;
+        text-decoration: none;
+    }
+
+    a:hover{
+        color: rgb(184, 182, 182);
+    }
